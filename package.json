@@ -1,0 +1,30 @@
+{
+    "name": "latihan_typescript",
+    "version": "1.0.0",
+    "description": "latihan typescript",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test",
+        "tsc": "rm -rf build/ && tsc",
+        "ts": "rm -rf build/ && tsc -w",
+        "dev": "nodemon ./build/function.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rahmatulah12/Latihan-Typescript.git"
+    },
+    "keywords": [
+        "typescript"
+    ],
+    "author": "Rahmatulah12",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Rahmatulah12/Latihan-Typescript/issues"
+    },
+    "homepage": "https://github.com/Rahmatulah12/Latihan-Typescript#readme",
+    "devDependencies": {
+        "@types/node": "^15.12.2",
+        "nodemon": "^2.0.7",
+        "typescript": "^4.3.2"
+    }
+}
